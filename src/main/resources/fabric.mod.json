@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "routecleaner",
+  "version": "${version}",
+  "name": "Crystal Route Cleaner",
+  "description": "Gemstone route import, Etherwarp obstruction analysis, and private-world route-clearing helper.",
+  "authors": ["Open-source example"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.routecleaner.client.RouteCleanerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
